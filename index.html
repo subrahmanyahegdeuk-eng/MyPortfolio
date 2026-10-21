@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en-GB" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Security: only load files from this site. No trackers, no third-party scripts. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+
+  <!-- ===== SEO: page title and description (update if your headline changes) ===== -->
+  <title>Subrahmanya Hegde | Aspiring SOC Analyst</title>
+  <meta name="description" content="Cyber security portfolio of Subrahmanya Hegde, an MSc Computer Science graduate in Glasgow building SOC skills through hands-on labs in Microsoft Sentinel, alert triage and AWS security.">
+  <meta name="author" content="Subrahmanya Hegde">
+
+  <!-- Open Graph: how the link looks when shared on LinkedIn and similar sites.
+       After you publish, change og:url to your real web address, and og:image to the full URL of assets/og-image.png -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Subrahmanya Hegde | Aspiring SOC Analyst">
+  <meta property="og:description" content="Hands-on lab work in Microsoft Sentinel, SOC alert triage and AWS security, plus data and AI projects in Python and SQL.">
+  <meta property="og:image" content="https://subrahmanyahegdeuk-eng.github.io/MyPortfolio/assets/og-image.png">
+  <meta property="og:url" content="https://subrahmanyahegdeuk-eng.github.io/MyPortfolio/">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main">
+      <a class="nav-brand" href="#top">S. Hegde</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="visually-hidden">Menu</span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#labs">Lab work</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#training">Training</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ===== HERO: MY NAME, HEADLINE AND INTRO ===== -->
+    <section class="hero container" id="top" aria-labelledby="hero-name">
+      <p class="eyebrow">Glasgow, UK</p>
+      <!-- MY NAME -->
+      <h1 id="hero-name">Subrahmanya Hegde</h1>
+      <!-- HEADLINE -->
+      <p class="hero-headline">Aspiring SOC Analyst <span aria-hidden="true">·</span> MSc Computer Science</p>
+      <p class="hero-intro">
+        MSc Computer Science graduate building practical security operations skills through hands-on labs in
+        Microsoft Sentinel, SOC alert triage and AWS security.
+      </p>
+      <!-- SOCIAL LINKS (hero buttons). Update the href values if your links change. -->
+      <div class="button-row">
+        <a class="btn btn-primary" href="#labs">View lab work</a>
+        <a class="btn" href="https://www.linkedin.com/in/subrahmanya-hegde" target="_blank" rel="noopener noreferrer">LinkedIn<span class="visually-hidden"> profile (opens in new tab)</span></a>
+        <a class="btn" href="https://github.com/subrahmanyahegdeuk-eng" target="_blank" rel="noopener noreferrer">GitHub<span class="visually-hidden"> profile (opens in new tab)</span></a>
+        <a class="btn" href="https://tryhackme.com/p/subrahmanyahegdeuk" target="_blank" rel="noopener noreferrer">TryHackMe<span class="visually-hidden"> profile (opens in new tab)</span></a>
+        <a class="btn" href="mailto:subrahmanyahegdeuk@gmail.com">Email me</a>
+        <!-- RESUME: put a public copy of your resume (no phone number or address) at assets/resume/resume.pdf -->
+        <!-- Remove the comment marks around the next line once resume.pdf is added:
+        <a class="btn" href="assets/resume/resume.pdf">Resume<span class="visually-hidden"> (PDF)</span></a> -->
+      </div>
+
+      <!-- AT A GLANCE: the 30-second summary for recruiters -->
+      <dl class="glance">
+        <div><dt>Focus</dt><dd>SOC, SIEM and cloud security</dd></div>
+        <div><dt>Key tools</dt><dd>Microsoft Sentinel, AWS IAM, Python, SQL</dd></div>
+        <div><dt>Education</dt><dd>MSc Computer Science, University of Strathclyde (2024)</dd></div>
+        <div><dt>Currently studying</dt><dd>TryHackMe SOC Level 1, Defending Azure, SC-200 learning path</dd></div>
+      </dl>
+    </section>
+
+    <!-- ===== ABOUT ME ===== -->
+    <section class="section container" id="about" aria-labelledby="about-title">
+      <h2 id="about-title">About me</h2>
+      <div class="prose">
+        <p>
+          I completed an MSc in Computer Science at the University of Strathclyde in 2024, and I am now working
+          towards a role in security operations. My cyber security learning is hands-on and lab-based: I have
+          triaged SOC alerts across phishing, data exfiltration, malware and reverse shell scenarios, administered
+          Microsoft Sentinel, analysed web server logs for signs of compromise, and completed TryHackMe's
+          Pre Security and Defending AWS paths.
+        </p>
+        <p>
+          I have also built data and AI tools in Python and SQL, including a reporting pipeline with automated
+          data quality checks. Alongside this I bring three years of shift management: running shifts for a team
+          of six, preparing for audits and inspections, and working with IT support to keep service running during
+          till system outages.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS: CYBER SECURITY LAB WORK =====
+         To add a lab, copy one <article class="card"> ... </article> block and edit the text.
+         Lines marked "Details to add" are placeholders: replace them with your own information, or delete them. -->
+    <section class="section container" id="labs" aria-labelledby="labs-title">
+      <h2 id="labs-title">Cyber security lab work</h2>
+      <p class="section-intro">
+        Hands-on work completed in training labs on Immersive Labs and TryHackMe. These are educational
+        lab environments, not production systems.
+      </p>
+
+      <div class="card-grid">
+
+        <!-- LAB 1: Microsoft Sentinel -->
+        <article class="card" aria-labelledby="lab-sentinel">
+          <p class="card-domain">SIEM · Security Operations</p>
+          <h3 id="lab-sentinel">Microsoft Sentinel administration</h3>
+          <p class="card-label">TryHackMe Defending Azure · Immersive Labs</p>
+          <p>
+            Configured core Microsoft Sentinel features in lab environments: analytics rules, threat intelligence
+            connectors, watchlists, automation rules, playbooks and role-based access at resource group level.
+          </p>
+          <ul class="tags" aria-label="Technologies">
+            <li>Microsoft Sentinel</li><li>Microsoft Azure</li><li>Azure RBAC</li><li>KQL (basics)</li>
+          </ul>
+          <details class="card-details">
+            <summary>View details</summary>
+            <dl class="story">
+              <dt>Challenge</dt>
+              <dd>Learn how a cloud SIEM is configured so that it detects threats, adds useful context and controls who can access it.</dd>
+              <dt>Environment</dt>
+              <dd>Microsoft Sentinel rooms in the TryHackMe Defending Azure path, plus Immersive Labs labs.</dd>
+              <dt>Rooms completed</dt>
+              <dd><ul class="room-list"><li>MS Sentinel: Introduction</li><li>MS Sentinel: Deploy</li><li>MS Sentinel: Ingest Data</li><li>MS Sentinel: Detect</li><li>MS Sentinel: Investigate</li><li>KQL (Kusto): Introduction</li></ul></dd>
+              <dt>What I did</dt>
+              <dd>Administered analytics rules, threat intelligence connectors, watchlists, automation rules and playbooks, and set up role-based access control at resource group level.</dd>
+              <dt>Security concepts</dt>
+              <dd>Detection rules, threat intelligence enrichment, watchlists for context, automated response, least-privilege access.</dd>
+            </dl>
+          </details>
+        </article>
+
+        <!-- LAB 2: SOC alert triage -->
+        <article class="card" aria-labelledby="lab-triage">
+          <p class="card-domain">SOC · Incident Response</p>
+          <h3 id="lab-triage">SOC alert triage</h3>
+          <p class="card-label">Immersive Labs · TryHackMe SOC Level 1</p>
+          <p>
+            Triaged SOC alerts across four attack types: phishing, data exfiltration, double-extension malware
+            and reverse shell chains.
+          </p>
+          <ul class="tags" aria-label="Topics">
+            <li>Alert triage</li><li>Alert reporting</li><li>Phishing</li><li>Data exfiltration</li><li>Reverse shells</li><li>Splunk (basics)</li><li>Elastic Stack (basics)</li>
+          </ul>
+          <details class="card-details">
+            <summary>View details</summary>
+            <dl class="story">
+              <dt>Challenge</dt>
+              <dd>Decide which alerts represent real threats and what happened in each one.</dd>
+              <dt>Environment</dt>
+              <dd>Immersive Labs SOC scenarios, plus the first three sections of the TryHackMe SOC Level 1 path (13 of 65 rooms so far).</dd>
+              <dt>SOC Level 1 rooms completed</dt>
+              <dd><ul class="room-list"><li>Junior Security Analyst Intro</li><li>SOC Role in Blue Team</li><li>Humans as Attack Vectors</li><li>Systems as Attack Vectors</li><li>SOC L1 Alert Triage</li><li>SOC L1 Alert Reporting</li><li>SOC Workbooks and Lookups</li><li>SOC Metrics and Objectives</li><li>Introduction to SIEM</li><li>Splunk: The Basics</li><li>Elastic Stack: The Basics</li><li>Introduction to EDR</li><li>Introduction to SOAR</li></ul></dd>
+              <dt>What I did</dt>
+              <dd>Triaged alerts covering phishing, data exfiltration, malware disguised with a double file extension, and reverse shell chains.</dd>
+              <dt>Security concepts</dt>
+              <dd>Alert triage, phishing indicators, data exfiltration, file extension masquerading, reverse shells.</dd>
+            </dl>
+          </details>
+        </article>
+
+        <!-- LAB 3: Web server log analysis -->
+        <article class="card" aria-labelledby="lab-logs">
+          <p class="card-domain">Threat Detection · Incident Response</p>
+          <h3 id="lab-logs">Web server log analysis and web shell identification</h3>
+          <p class="card-label">Training lab</p>
+          <p>
+            Analysed Apache access logs, filtered out Nikto scan noise and identified web shells.
+          </p>
+          <ul class="tags" aria-label="Topics">
+            <li>Apache access logs</li><li>Nikto</li><li>Log analysis</li><li>Web shells</li>
+          </ul>
+          <details class="card-details">
+            <summary>View details</summary>
+            <dl class="story">
+              <dt>Challenge</dt>
+              <dd>Find evidence of a real compromise in web server logs that also contain a lot of automated scanning traffic.</dd>
+              <dt>Environment</dt>
+              <dd>Apache access logs in a lab.</dd>
+              <dt>What I did</dt>
+              <dd>Filtered out Nikto vulnerability scanner noise, then identified web shells in the remaining activity.</dd>
+              <dt>Security concepts</dt>
+              <dd>Log analysis, separating automated scanning from targeted activity, web shell indicators.</dd>
+            </dl>
+          </details>
+        </article>
+
+        <!-- LAB 4: Defending AWS -->
+        <article class="card" aria-labelledby="lab-aws">
+          <p class="card-domain">Cloud Security · IAM</p>
+          <h3 id="lab-aws">Defending AWS</h3>
+          <p class="card-label">TryHackMe path · completed 7 October 2026 with certificate</p>
+          <p>
+            Worked through labs on common AWS misconfigurations, including over-privileged users, unrotated
+            access keys, privilege escalation through roles, gaps in IAM logging and security group scoping.
+          </p>
+          <ul class="tags" aria-label="Technologies">
+            <li>AWS IAM</li><li>Security groups</li><li>NACLs</li><li>Cloud networking</li><li>Cloud storage</li>
+          </ul>
+          <details class="card-details">
+            <summary>View details</summary>
+            <dl class="story">
+              <dt>Challenge</dt>
+              <dd>Understand how AWS accounts are commonly misconfigured, and how to defend identity, network, compute and storage.</dd>
+              <dt>Environment</dt>
+              <dd>TryHackMe Defending AWS path: Welcome to AWS, Identity and Access Management, Network and Perimeter Defense, Securing Compute, and Storage and Data Security.</dd>
+              <dt>Rooms completed</dt>
+              <dd><p class="room-group">Foundations</p><ul class="room-list"><li>First Steps Into AWS</li><li>Shared Responsibility Model</li><li>Introduction to IAM</li><li>Cloud Networking</li><li>Cloud Computing</li><li>Cloud Storage</li><li>AWS Security Tools</li></ul><p class="room-group">IAM</p><ul class="room-list"><li>The Over-Privileged User</li><li>The Forgotten Access Key</li><li>The Overpowered Role</li><li>The Silence of the IAMs</li></ul><p class="room-group">Network and perimeter</p><ul class="room-list"><li>The Wide-Open Security Group</li><li>The Not So Private Subnet</li><li>The Forgotten NACL</li><li>The Invisible Network</li></ul><p class="room-group">Compute</p><ul class="room-list"><li>The Exposed Port</li><li>The Unpatched Instance</li><li>The Leaky Metadata</li><li>The Oversharing Container</li></ul><p class="room-group">Storage and data</p><ul class="room-list"><li>The Leaky Bucket</li><li>The Plain Bucket</li><li>The Blind Bucket</li><li>The Shared Snapshot</li></ul></dd>
+              <dt>What I did</dt>
+              <dd>Completed labs on over-privileged users, unrotated access keys, privilege escalation through roles, gaps in IAM logging and security group scoping.</dd>
+              <dt>Security concepts</dt>
+              <dd>Least privilege, access key hygiene, role-based privilege escalation, logging and visibility, network perimeter control, the shared responsibility model.</dd>
+              <dt>Result</dt>
+              <dd>Completed all 23 rooms in the path on 7 October 2026 and earned its certificate of completion (ID THM-YBOYAXSKC1).</dd>
+            </dl>
+          </details>
+          <div class="button-row"><a class="btn btn-small" href="assets/certificates/defending-aws-certificate.pdf" target="_blank" rel="noopener noreferrer">View certificate<span class="visually-hidden">: Defending AWS (PDF, opens in new tab)</span></a></div>
+        </article>
+
+        <!-- LAB 5: PaperCut CVE-2023-27350 -->
+        <article class="card" aria-labelledby="lab-papercut">
+          <p class="card-domain">Offensive Security (lab)</p>
+          <h3 id="lab-papercut">PaperCut CVE-2023-27350 exploitation</h3>
+          <p class="card-label">TryHackMe room</p>
+          <p>
+            Exploited CVE-2023-27350, a PaperCut NG/MF remote code execution vulnerability, to gain a SYSTEM shell
+            in a lab environment.
+          </p>
+          <ul class="tags" aria-label="Topics">
+            <li>CVE-2023-27350</li><li>PaperCut</li><li>Remote code execution</li>
+          </ul>
+          <details class="card-details">
+            <summary>View details</summary>
+            <dl class="story">
+              <dt>Challenge</dt>
+              <dd>Understand how a publicly known vulnerability can be used to take control of an unpatched server.</dd>
+              <dt>Environment</dt>
+              <dd>The TryHackMe room "PaperCut: CVE-2023-27350", an isolated lab running a vulnerable version of PaperCut.</dd>
+              <dt>What I did</dt>
+              <dd>Exploited CVE-2023-27350 to gain a shell with SYSTEM privileges.</dd>
+              <dt>Security concepts</dt>
+              <dd>Remote code execution, privilege level, the impact of unpatched internet-facing software.</dd>
+              <dt>Result</dt>
+              <dd>SYSTEM-level shell on the lab target.</dd>
+            </dl>
+          </details>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS: OTHER TECHNICAL PROJECTS ===== -->
+    <section class="section container" id="projects" aria-labelledby="projects-title">
+      <h2 id="projects-title">Other technical projects</h2>
+      <p class="section-intro">Personal and MSc projects in data and AI, built in Python, SQL and R.</p>
+
+      <div class="card-grid">
+
+        <article class="card" aria-labelledby="proj-nhs">
+          <p class="card-domain">Data engineering · Reporting</p>
+          <h3 id="proj-nhs">NHS Lung Cancer Screening Analytics Dashboard</h3>
+          <p class="card-label">Personal project · 03/2026 to present</p>
+          <p>
+            Reporting pipeline on synthetic NHS screening data, with a SQL back end and a Streamlit front end.
+            Automated data quality checks flag duplicate records before they reach reporting. The reporting
+            layer is being rebuilt in Power BI.
+          </p>
+          <ul class="tags" aria-label="Technologies">
+            <li>Python</li><li>SQL</li><li>pandas</li><li>Streamlit</li><li>Groq LLaMA</li>
+          </ul>
+          <div class="button-row">
+            <a class="btn btn-small" href="https://github.com/subrahmanyahegdeuk-eng/nhs-data-analytics" target="_blank" rel="noopener noreferrer">View GitHub<span class="visually-hidden">: NHS screening dashboard (opens in new tab)</span></a>
+          </div>
+        </article>
+
+        <article class="card" aria-labelledby="proj-rag">
+          <p class="card-domain">AI · Retrieval-augmented generation</p>
+          <h3 id="proj-rag">Multilingual PDF Chatbot (RAG)</h3>
+          <p class="card-label">Personal project · 08/2025 to 01/2026</p>
+          <p>Retrieval-augmented chatbot that answers questions from uploaded PDFs in more than one language.</p>
+          <ul class="tags" aria-label="Technologies">
+            <li>LangChain</li><li>ChromaDB</li><li>Hugging Face</li><li>Groq LLaMA</li>
+          </ul>
+          <div class="button-row">
+            <a class="btn btn-small" href="https://github.com/subrahmanyahegdeuk-eng/pdf-chatbot" target="_blank" rel="noopener noreferrer">View GitHub<span class="visually-hidden">: PDF chatbot (opens in new tab)</span></a>
+          </div>
+        </article>
+
+        <article class="card" aria-labelledby="proj-jobs">
+          <p class="card-domain">AI · Automation</p>
+          <h3 id="proj-jobs">Global AI Job Scout</h3>
+          <p class="card-label">Personal project · 10/2025 to 02/2026</p>
+          <p>Scraper that collects job postings and uses an LLM to analyse and filter them.</p>
+          <ul class="tags" aria-label="Technologies">
+            <li>Python</li><li>BeautifulSoup</li><li>Groq LLaMA</li>
+          </ul>
+          <div class="button-row">
+            <a class="btn btn-small" href="https://github.com/subrahmanyahegdeuk-eng/nz-job-scout" target="_blank" rel="noopener noreferrer">View GitHub<span class="visually-hidden">: AI job scout (opens in new tab)</span></a>
+          </div>
+        </article>
+
+        <article class="card" aria-labelledby="proj-r">
+          <p class="card-domain">Data science</p>
+          <h3 id="proj-r">Portfolio Optimisation in R</h3>
+          <p class="card-label">MSc coursework · 2023</p>
+          <p>
+            Used a genetic algorithm to optimise stock portfolio weights against the Sharpe ratio, tested on a
+            train and test split with sensitivity tests on alpha.
+          </p>
+          <ul class="tags" aria-label="Technologies">
+            <li>R Markdown</li><li>GA</li><li>quantmod</li><li>PerformanceAnalytics</li>
+          </ul>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ===== SKILLS =====
+         Each group is a heading plus a list of tags. Add a skill by adding a new <li>...</li> line. -->
+    <section class="section container" id="skills" aria-labelledby="skills-title">
+      <h2 id="skills-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Security operations</h3>
+          <ul class="tags">
+            <li>SOC alert triage</li><li>Microsoft Sentinel</li><li>Analytics rules</li>
+            <li>Threat intelligence connectors</li><li>Watchlists</li><li>Automation rules</li>
+            <li>Playbooks</li><li>RBAC</li><li>Log analysis</li><li>Web shell identification</li>
+            <li>CVE-2023-27350 lab exploitation</li>
+            <li>KQL (basics)</li><li>Splunk (basics)</li><li>Elastic Stack (basics)</li><li>EDR concepts</li><li>SOAR concepts</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Cloud security</h3>
+          <ul class="tags">
+            <li>AWS IAM</li><li>Security groups</li><li>Cloud networking and storage</li>
+            <li>AWS CLI</li><li>Shared responsibility model</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Networking and systems</h3>
+          <ul class="tags">
+            <li>TCP/IP</li><li>OSI model</li><li>DNS</li><li>HTTP</li><li>VPN</li><li>RDP</li><li>SSH</li>
+            <li>Windows command line</li><li>Linux command line</li><li>PC build, imaging and backup</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Scripting and data</h3>
+          <ul class="tags">
+            <li>Python</li><li>pandas</li><li>matplotlib</li><li>openpyxl</li><li>SQL</li><li>R</li>
+            <li>Streamlit</li><li>Excel</li><li>Automated data quality checks</li><li>Power BI (learning)</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>AI and automation</h3>
+          <ul class="tags">
+            <li>RAG pipelines</li><li>LangChain</li><li>ChromaDB</li><li>Hugging Face</li><li>Groq LLaMA</li>
+            <li>BeautifulSoup</li><li>AI response evaluation</li><li>Rubric writing</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Governance and projects</h3>
+          <ul class="tags">
+            <li>GDPR (self-study)</li><li>FOISA (self-study)</li><li>Caldicott principles (self-study)</li>
+            <li>PRINCE2 concepts</li><li>Compliance audits and corrective actions</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section class="section container" id="experience" aria-labelledby="experience-title">
+      <h2 id="experience-title">Experience</h2>
+      <ol class="timeline">
+        <li class="timeline-item">
+          <div class="timeline-head">
+            <h3>Shift Manager <span class="at">· Taco Bell, Glasgow</span></h3>
+            <p class="dates">07/2026 to present</p>
+          </div>
+          <ul>
+            <li>Run shifts for a team of six, with briefings on priorities at the start and debriefs at the end.</li>
+            <li>Work with IT support to restore service during EPOS till outages, keeping orders running manually.</li>
+            <li>Point of contact for Environmental Health inspectors and for suppliers on stock issues.</li>
+            <li>Record sales and inventory in Excel daily, and induct and train new starters.</li>
+          </ul>
+          <ul class="tags tags-quiet" aria-label="Transferable skills">
+            <li>Incident coordination</li><li>Team leadership</li><li>Reporting</li><li>Training</li>
+          </ul>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-head">
+            <h3>Courier Driver <span class="at">· DPD, Glasgow</span></h3>
+            <p class="dates">09/2025 to 06/2026</p>
+          </div>
+          <ul>
+            <li>Delivered parcels on daily multi-drop routes.</li>
+          </ul>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-head">
+            <h3>Shift Manager <span class="at">· Taco Bell, Glasgow</span></h3>
+            <p class="dates">03/2023 to 08/2025</p>
+          </div>
+          <ul>
+            <li>Prepared the store for brand audits and Environmental Health inspections, then followed through on corrective actions.</li>
+            <li>Introduced a new deep cleaning procedure and explained audit scoring to the team, winning back points the store had been losing.</li>
+            <li>Managed stock levels, inventory reporting and staff on shift.</li>
+          </ul>
+          <ul class="tags tags-quiet" aria-label="Transferable skills">
+            <li>Audit and compliance</li><li>Process improvement</li><li>Communication</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ===== EDUCATION ===== -->
+    <section class="section container" id="education" aria-labelledby="education-title">
+      <h2 id="education-title">Education</h2>
+      <div class="edu-grid">
+        <article class="edu">
+          <h3>MSc Computer Science</h3>
+          <p class="at">University of Strathclyde, Glasgow · 2024</p>
+          <p>
+            Modules included Machine Learning, Natural Language Processing, Distributed Systems, Software
+            Architecture, Legal and Ethical Frameworks in IT, and Advanced Project Management.
+          </p>
+        </article>
+        <article class="edu">
+          <h3>Bachelor of Computer Applications (BCA)</h3>
+          <p class="at">Institute of Business Management and Research, Hubli, India · 2022</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== CERTIFICATIONS AND TRAINING =====
+         Only list things you have actually completed under "Completed".
+         Move an item from "In progress" to "Completed" only once you have finished it. -->
+    <section class="section container" id="training" aria-labelledby="training-title">
+      <h2 id="training-title">Training and certificates</h2>
+      <div class="training-grid">
+        <div>
+          <h3 class="status status-done">Completed</h3>
+          <ul class="training-list">
+            <li>
+              <strong>TryHackMe Defending AWS path</strong>
+              <span>Certificate of completion · 7 October 2026 · 15.5 hours, 23 rooms covering IAM, network, compute and storage security · ID THM-YBOYAXSKC1</span>
+              <a href="assets/certificates/defending-aws-certificate.pdf" target="_blank" rel="noopener noreferrer">View certificate<span class="visually-hidden"> (PDF, opens in new tab)</span></a>
+            </li>
+            <li>
+              <strong>TryHackMe Pre Security path</strong>
+              <span>Networking, OSI model, DNS, HTTP, Windows and Linux CLI, SQL basics, cryptography, CIA triad</span>
+            </li>
+            <li>
+              <strong>Immersive Labs</strong>
+              <span>SOC alert triage, Microsoft Sentinel and log analysis labs</span>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="status status-progress">In progress</h3>
+          <ul class="training-list">
+            <li>
+              <strong>TryHackMe SOC Level 1</strong>
+              <span>13 of 65 rooms: blue team intro, SOC team internals and core SOC tools</span>
+            </li>
+            <li>
+              <strong>TryHackMe Defending Azure</strong>
+              <span>36% complete: Microsoft Sentinel module done, KQL module started</span>
+            </li>
+            <li>
+              <strong>Microsoft SC-200 learning path</strong>
+              <span>Microsoft Learn: Sentinel and Defender for Endpoint (learning path, not the exam)</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT DETAILS =====
+         Replace [EMAIL] with the email address you want to show publicly, for example:
+         <a href="mailto:you@example.com">you@example.com</a>
+         Do not add a phone number or home address. -->
+    <section class="section container" id="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact</h2>
+      <p class="section-intro">The best way to reach me is through LinkedIn or email.</p>
+      <ul class="contact-list">
+        <li><span class="contact-label">Email</span> <a href="mailto:subrahmanyahegdeuk@gmail.com">subrahmanyahegdeuk@gmail.com</a></li>
+        <li><span class="contact-label">LinkedIn</span> <a href="https://www.linkedin.com/in/subrahmanya-hegde" target="_blank" rel="noopener noreferrer">linkedin.com/in/subrahmanya-hegde</a></li>
+        <li><span class="contact-label">GitHub</span> <a href="https://github.com/subrahmanyahegdeuk-eng" target="_blank" rel="noopener noreferrer">github.com/subrahmanyahegdeuk-eng</a></li>
+        <li><span class="contact-label">TryHackMe</span> <a href="https://tryhackme.com/p/subrahmanyahegdeuk" target="_blank" rel="noopener noreferrer">tryhackme.com/p/subrahmanyahegdeuk</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year">2026</span> Subrahmanya Hegde. Built with HTML, CSS and a little JavaScript. No tracking.</p>
+    </div>
+  </footer>
+</body>
+</html>
